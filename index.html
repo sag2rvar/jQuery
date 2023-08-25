@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
+    <title>js</title>
+</head>
+
+<body>
+
+
+
+<div class="card" style="background-color: lightslategray; margin-top: 10px;">
+    <h1 class="card-title text-center text-white" style="margin-top: 50px;">Jquery Tasks</h1>
+    <div class="d-flex justify-content-around" style="margin-top: 80px;">
+        <button type="button" class="btn btn-light a" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Heading</button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Heading</h1>
+                    </div>
+                    <div class="modal-body">
+                        <form class="heading-form">
+                            <div class="mb-3">
+                                <!-- <label for="heading">Enter Heading:</label>
+                            <input type="text" id="heading" /> -->
+                                <label for="recipient-name" class="col-form-label">Heading:</label>
+                                <input type="text" class="form-control input-heading" id="recipient-name"
+                                    placeholder="enter heading">
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal2"
+            data-bs-whatever="@mdo">sub-Heading</button>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel2">sub-Heading</h1>
+                    </div>
+                    <div class="modal-body">
+                        <form class="heading-form1">
+                            <div class="mb-3">
+                                <select class="optionselect form-select">
+                                    <option value="all" selected disable> Select </option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Sub-Heading:</label>
+                                <input type="text" class="form-control input-heading1" id="recipient-name"
+                                    placeholder="enter sub-heading">
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal3"
+            data-bs-whatever="@mdo">Form</button>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel3">Form:</h1>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                    </div>
+                    <div class="modal-body">
+                        <form class="heading-form2">
+
+                            <div class="mb-3">
+                                <select class="headingForm1 form-select">
+                                    <option value="all" selected disable> Heading </option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <select class="headingForm2 form-select">
+                                    <option value="all" selected disable> Sub-Heading </option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <select class="optionselect2 form-select">
+                                    <option value="" selected disable> Input </option>
+                                    <option value="text">text</option>
+                                    <option value="radio">radio</option>
+                                    <option value="checkbox">checkbox</option>
+                                    <option value="email">email</option>
+                                    <option value="select">select</option>
+                                    <option value="file">file</option>
+                                    <option value="textarea">textarea</option>
+                                    <option value="button">button</option>
+                                </select>
+                            </div>
+
+
+
+
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">label:</label>
+                                <input type="text" class="form-control input-heading2" id="recipient-name"
+                                    placeholder="enter label">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">class:</label>
+                                <input type="text" class="form-control input-heading3" id="recipient-name"
+                                    placeholder="enter class">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">value:</label>
+                                <input type="text" class="form-control input-heading4" id="recipient-name"
+                                    placeholder="enter value">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Place Holder:</label>
+                                <input type="text" class="form-control input-heading5" id="recipient-name"
+                                    placeholder="enter Place Holder">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Name:</label>
+                                <input type="text" class="form-control input-heading6" id="recipient-name"
+                                    placeholder="enter name">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Option</label>
+                                <input type="text" class="form-control input-heading7" id="recipient-name"
+                                    placeholder="Red,Green,Blue">
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="checkbox" id="checkboxNoLabel1" value=""
+                                    aria-label="...">
+                                <label class="form-check-label" for="Radio1">Readonly</label>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="checkbox" id="checkboxNoLabel2" value=""
+                                    aria-label="...">
+                                <label class="form-check-label" for="Radio2">Disable</label>
+                            </div>
+
+
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+</div>
+
+
+    <main></main>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="style.js"></script>
+</body>
+
+</html>
